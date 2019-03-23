@@ -9,24 +9,24 @@
 /* Begin PBXBuildFile section */
 		9BDDA3012246751F00944DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3002246751F00944DD5 /* AppDelegate.swift */; };
 		9BDDA3032246751F00944DD5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3022246751F00944DD5 /* GameScene.sks */; };
-		9BDDA3052246751F00944DD5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3042246751F00944DD5 /* Actions.sks */; };
 		9BDDA3072246751F00944DD5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3062246751F00944DD5 /* GameScene.swift */; };
 		9BDDA3092246751F00944DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3082246751F00944DD5 /* ViewController.swift */; };
 		9BDDA30B2246752100944DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA30A2246752100944DD5 /* Assets.xcassets */; };
 		9BDDA30E2246752100944DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA30C2246752100944DD5 /* Main.storyboard */; };
+		9BDDA3172246772600944DD5 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3162246772600944DD5 /* pop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BDDA2FD2246751F00944DD5 /* BubbleTrouble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleTrouble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDDA3002246751F00944DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDDA3022246751F00944DD5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9BDDA3042246751F00944DD5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9BDDA3062246751F00944DD5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9BDDA3082246751F00944DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BDDA30A2246752100944DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDDA30D2246752100944DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BDDA30F2246752100944DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BDDA3102246752100944DD5 /* BubbleTrouble.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BubbleTrouble.entitlements; sourceTree = "<group>"; };
+		9BDDA3162246772600944DD5 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +61,13 @@
 			children = (
 				9BDDA3002246751F00944DD5 /* AppDelegate.swift */,
 				9BDDA3022246751F00944DD5 /* GameScene.sks */,
-				9BDDA3042246751F00944DD5 /* Actions.sks */,
 				9BDDA3062246751F00944DD5 /* GameScene.swift */,
 				9BDDA3082246751F00944DD5 /* ViewController.swift */,
 				9BDDA30A2246752100944DD5 /* Assets.xcassets */,
 				9BDDA30C2246752100944DD5 /* Main.storyboard */,
 				9BDDA30F2246752100944DD5 /* Info.plist */,
 				9BDDA3102246752100944DD5 /* BubbleTrouble.entitlements */,
+				9BDDA3162246772600944DD5 /* pop.wav */,
 			);
 			path = BubbleTrouble;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			files = (
 				9BDDA3032246751F00944DD5 /* GameScene.sks in Resources */,
 				9BDDA30B2246752100944DD5 /* Assets.xcassets in Resources */,
-				9BDDA3052246751F00944DD5 /* Actions.sks in Resources */,
+				9BDDA3172246772600944DD5 /* pop.wav in Resources */,
 				9BDDA30E2246752100944DD5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
